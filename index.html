@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normolize.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <img src="./img/logo.svg" alt="logo" class="header-logo">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="#new" class="menu__list-link">О нас</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#gallery" class="menu__list-link">Галерея</a>
+                        </li>
+                        <li class="menu__list-item  hover-item">
+                            <a href="#ab" class="menu__list-link">Абонементы</a>
+                            <ul class="window">
+                                <li class="window-item"><a href="#ab" class="window-link">Абонементы по занятиям</a></li>
+                                <li class="window-item"><a href="#abt" class="window-link">Абонементы по времени</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#tren" class="menu__list-link">Тренеры</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#contact" class="menu__list-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-tel">
+                    <a href="#" class="header-tel-link">     
+                        +7 (987) 654-32-10 
+                    </a>
+                </div>
+            </div>
+            <h1 class="header__title">
+                Фитнес клуб Пантеон
+            </h1>
+            <h2 class="header__subtitle">
+                Лучше нас только боги
+            </h2>
+            <button class="header__button button">
+                <p class="button-text">
+                    Получить консультацию
+                </p>
+                
+            </button>
+            <div class="header__bottom">
+                <a href="#new" class="header-yak">
+                    <img src="./img/arrow.svg" alt="">
+                </a>
+                <div class="header__social-link">
+                    <a href="">
+                        <img src="./img/inst.svg" alt="" class="header__social-img">
+                    </a>
+                    <a href="">
+                        <img src="./img/vk.svg" alt="" class="header__social-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="new" id="new">
+        <div class="container">
+            <div class="new__main">
+                <div class="new__main-left">
+                    <img src="./img/left-img1.png" alt="" class="new__main-img">
+                    <img src="./img/left-img2.png" alt="" class="new__main-img">
+                </div>
+                <div class="new__main-right">
+                    <h3 class="new__main-right-title">
+                        Новый образ жизни
+                    </h3>
+                    <p class="new__main-right-text">
+                        Став частью нашей команды, вы сможете изменить привычный ритм жизни и сделать каждый свой день особенным, а формат наших тренировок позволит вам раскрыть потенциал вашего тела на 100%.
+                    </p>
+                    <button class="new-button button">
+                        <p class="button-text new-button-text">
+                            Получить консультацию
+                        </p>
+                    </button>
+                </div>
+            </div>
+            <div class="new__botton">
+                <div class="new__botton-point">
+                    <img src="./img/bike.svg" alt="" class="new__botton-img">
+                    <div class="new__botton-text">
+                        <p>Полностью</p>
+                        <p>Укомплектованный зал</p>
+                    </div>
+                </div>
+                <div class="new__botton-point">
+                    <img src="./img/dumbbell.svg" alt="" class="new__botton-img">
+                    <div class="new__botton-text">
+                        <p>Профессиональное</p>
+                        <p>оборудование</p>
+                    </div>
+                </div>
+                <div class="new__botton-point">
+                    <img src="./img/location.svg" alt="" class="new__botton-img">
+                    <div class="new__botton-text">
+                        <p>Удобное расположение</p>
+                        <p>в центре города</p>
+                    </div>
+                </div>
+                <div class="new__botton-point">
+                    <img src="./img/wallet.svg" alt="" class="new__botton-img">
+                    <div class="new__botton-text">
+                        <p>Доступная</p>
+                        <p>Стоимость</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h3 class="gallery__title">
+                Галлерея
+            </h3>
+            <div class="gallery__slider">
+                <img src="./img/slider-img/1.png" alt="" class="gallery__slider-img">
+                <img src="./img/slider-img/2.png" alt="" class="gallery__slider-img">
+                <img src="./img/slider-img/3.png" alt="" class="gallery__slider-img">
+                <img src="./img/slider-img/1.png" alt="" class="gallery__slider-img">
+                <img src="./img/slider-img/2.png" alt="" class="gallery__slider-img">
+                <img src="./img/slider-img/3.png" alt="" class="gallery__slider-img">
+            </div>
+        </div>
+    </section>
+    <section class="abonements" id="ab">
+        <div class="container">
+            <h3 class="abonements__title">Абонементы по занятиям</h3>
+            <table class="abonements__table">
+                <tr class="ft">
+                    <th class="ft">Кол-во занятий</th>
+                    <th class="ft">1 тренировка</th>
+                    <th class="ft">4 тренировки</th>
+                    <th class="ft">8 тренировок</th>
+                    <th class="ft">12 тренировок</th>
+                </tr>
+            </table>
+            <div class="line"></div>
+            <table class="abonements__table">
+                <tr>
+                    <td>Персональный тренинг
+                        с инструктором</td>
+                    <td> 700 руб.</td>
+                    <td> 2600 руб.
+                        (действителен в течении 3 недель)</td>
+                    <td>5200 руб.
+                        (действителен в
+                        течении 6 недель)</td>
+                    <td>7200 руб.
+                        (действителен в
+                        течении 10 недель)</td>
+                </tr>
+                <tr>
+                    <td>Самостоятельные тренировки
+                        в тренажерном зале</td>
+                    <td>250 руб.</td>
+                    <td>—</td>
+                    <td>1500 руб.
+                        (действителен в течении 30 дней)</td>
+                    <td>2000 руб.
+                        (действителен в
+                        течении 30 дней)</td>
+                </tr>
+                <tr>
+                    <td>Зал групповых программ</td>
+                    <td>300 руб.</td>
+                    <td>—</td>
+                    <td>2000 руб.
+                        (действителен в
+                        течении 30 дней)</td>
+                    <td>2750 руб.
+                        (действителен в течении 45 дней)</td>
+                </tr>
+            </table>
+            <h3 class="abonements__subtitle" id="abt">Абонемент по времени</h3>
+            <table class="abonements__table">
+                <tr class="ft">
+                    <th class="ft">Тип карты</th>
+                    <th class="ft">	12 месяцев</th>
+                    <th class="ft">6 месяцев</th>
+                    <th class="ft">3 месяца</th>
+                    <th class="ft">1 месяц</th>
+                </tr>
+            </table>
+            <div class="line"></div>
+            <table class="abonements__table">
+                <tr>
+                    <td>Индивидуальная,
+                        полная без ограничения
+                        в посещении / 8:00 – 23:00</td>
+                    <td>18000
+                        (+200 мин. солярия)</td>
+                    <td>12000</td>
+                    <td>7000</td>
+                    <td>2500</td>
+                </tr>
+                <tr>
+                    <td>Индивидуальная,
+                        дневная / 8:00 – 17:00</td>
+                    <td>—</td>
+                    <td>9500</td>
+                    <td>5500</td>
+                    <td>2000</td>
+                </tr>
+            </table>
+            <h3 class="abonements__subtitle">Разовые тренировки</h3>
+            <div class="abonements__wrapper">
+                <div class="abonements__wrapper-point">
+                    <h4 class="abonements__wrapper-title">Самостоятельные тренировки в тренажерном зале</h4>
+                    <p class="abonements__wrapper-text">8:00 – 23:00</p>
+                    <img src="./img/gym-time.svg" alt="" class="abonements__wrapper-img">
+                    <h4 class="abonemetns__wrapper-subtitle">250₽</h4>
+                    <p class="abonements__wrapper-text">1 тренировка</p>
+                    
+                    <button class="new-button abonements-button button">
+                        <p class="button-text abonements-button-text">
+                            Получить консультацию
+                        </p>
+                    </button>
+                </div>
+
+                <div class="abonements__wrapper-point">
+                    <h4 class="abonements__wrapper-title">Персональный тренинг с инструктором</h4>
+                    <p class="abonements__wrapper-text">8:00 – 23:00</p>
+                    <img src="./img/gym-time.svg" alt="" class="abonements__wrapper-img">
+                    <h4 class="abonemetns__wrapper-subtitle">700₽</h4>
+                    <p class="abonements__wrapper-text">1 тренировка</p>
+                    <button class="new-button abonements-button button">
+                        <p class="button-text abonements-button-text">
+                            Получить консультацию
+                        </p>
+                    </button>
+                </div>
+                <div class="abonements__wrapper-point">
+                    <h4 class="abonements__wrapper-title">Зал групповых программ</h4>
+                    <p class="abonements__wrapper-text">график занятий уточняйте у администратора</p>
+                    <img src="./img/gym-time.svg" alt="" class="abonements__wrapper-img">
+                    <h4 class="abonemetns__wrapper-subtitle">300₽</h4>
+                    <p class="abonements__wrapper-text">1 тренировка</p>
+                    <button class="new-button abonements-button button">
+                        <p class="button-text abonements-button-text">
+                            Получить консультацию
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="treners" id="tren">
+        <div class="container">
+            <div class="treners__wrapper">
+                <div class="treners__wrapper-left">
+                    <h4 class="treners__wrapper-title">
+                        Тренеры 
+                    </h4>
+                </div>
+                <div class="treners__wrapper-right-slider">
+                    <div class="treners__wrapper-slider-point">
+                        <img src="./img/slider-img/t1.png" alt="" class="treners__slider-img">
+                        <h5 class="treners-slider-title">Илья Панченко</h5>
+                        <p class="treners-slider-text">Персональный тренер <br>Инструктор тренажерного зала <br>Опыт работы — 4 года</p>
+                    </div>
+                    <div class="treners__wrapper-slider-point">
+                        <img src="./img/slider-img/t2.png" alt="" class="treners__slider-img">
+                        <h5 class="treners-slider-title">Екатерина Сосина</h5>
+                        <p class="treners-slider-text">Фитнес-тренер<br> Опыт работы — 4 года</p>
+                    </div>
+                    <div class="treners__wrapper-slider-point">
+                        <img src="./img/slider-img/t3.png" alt="" class="treners__slider-img">
+                        <h5 class="treners-slider-title">Юлия Белова</h5>
+                        <p class="treners-slider-text">Фитнес-тренер <br>Опыт работы — 4 года</p>
+                    </div>
+                    <div class="treners__wrapper-slider-point">
+                        <img src="./img/slider-img/t1.png" alt="" class="treners__slider-img">
+                        <h5 class="treners-slider-title">Михаил Анисин</h5>
+                        <p class="treners-slider-text">Фитнес-тренер<br> Опыт работы 5 лет</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quest" id="contact" data-goto="i">
+        <div class="container">
+            <div class="quest__wrapper">
+                <h3 class="quest__title">Остались вопросы?</h3>
+            <h4 class="quest__subtitle">
+                Оставьте Ваш номер телефона и мы <span class="orange-text">обязательно с Вами свяжемся</span>
+            </h4>
+            <form action="" class="quest__form">
+                <input type="text" class="quest__form-input" placeholder="Введите имя">
+                <input type="text" class="quest__form-input" placeholder="Введите телефон">
+                <button class="new-button quest-button">
+                    <p class="button-text quest-button-text">
+                        Получить консультацию
+                    </p>
+                </button>
+            </form>
+            <p class="quest-text">
+                Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности
+            </p>
+            </div>
+            <div class="modal">
+                <div class="modal-top">
+                    <img src="./img/logo.svg" alt="" class="logo logo-modal">
+                    <img src="./img/close.svg" alt="" class="close">
+                </div>
+                <h1 class="modal__title">
+                    Данные успешно отправлены
+                </h1>
+                <h2 class="modal__subtitle">
+                    Мы свяжемся с вами вближайшее время
+                </h2>
+                <p class="modal__text">
+                    Подписывайтесь на наши соц.сети и не пропускайте новости
+                </p>
+                <div class="social__box">
+                    <a href="" class="social-link">
+                        <img src="./img/vk.svg" alt="" class="social__img">
+                    </a>
+                    <a href="" class="social-link">
+                        <img src="./img/inst.svg" alt="" class="social__img">
+                    </a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
